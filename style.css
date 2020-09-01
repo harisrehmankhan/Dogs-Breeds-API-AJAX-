@@ -1,0 +1,87 @@
+*{
+    font-size: x-large;
+    font-weight: 300;
+}
+.flexb{
+display: flex;
+justify-content: center;
+}
+
+.calc{
+    height: 310px;
+    width: 340px;
+    background-color:black;
+    
+}
+
+.screen{
+    height:50px;
+    background-color: black;
+    width:340px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+.screen span{
+    color: white;
+    padding:0 2px 5px 0;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+}
+
+.clr{
+    width: 49.5%;
+    height: 50px;
+}
+
+button{    
+border: none;
+}
+
+.btn{
+    width: 24%;
+    height: 50px;
+    
+    
+}
+
+.row{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+    padding-left: 0.5%;
+
+}
+
+.zero{
+    width: 75%;
+}
+
+.eq{
+    width: 24%;
+}
+
+.sn{
+    color:white;
+    background-color: #df974c;
+}
+
+.doggos img{
+margin-top: 10px;
+margin-right: 10px;
+width: 200px;
+height: 190px;
+border: 3px solid black;
+border-radius: 2px;
+background: transparent url('https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif') center no-repeat;
+}
